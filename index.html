@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>NexPlay Studios Ltd</title>
-<meta name="description" content="NexPlay Studios makes bright, simple puzzle games for Android." />
+<meta name="description" content="NexPlay Studios makes bright, simple puzzle and word games for Android: Lumi Words and Lumi Blocks." />
 <style>
   :root { color-scheme: dark; }
   body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #f4efff;
@@ -17,6 +17,8 @@
   .game img { width: 84px; height: 84px; border-radius: 20px; }
   .game h3 { margin: 0 0 4px; font-size: 20px; }
   .game p { margin: 0 0 8px; color: #ffffffcc; font-size: 15px; }
+  .game + .game { margin-top: 14px; }
+  .game a { margin-right: 16px; white-space: nowrap; }
   a { color: #ffd36e; }
   footer { margin-top: 48px; color: #ffffff99; font-size: 14px; }
 </style>
@@ -24,14 +26,24 @@
 <body>
 <main>
   <h1>NexPlay Studios</h1>
-  <p class="tag">Bright, simple puzzle games for Android.</p>
+  <p class="tag">Bright, simple puzzle and word games for Android.</p>
 
   <h2>Our games</h2>
   <div class="game">
+    <img src="lumi-words/icon.png" alt="Lumi Words icon" />
+    <div>
+      <h3>Lumi Words: Word Ladder Puzzle</h3>
+      <p>Turn one word into another by changing one letter at a time. Choose 3, 4 or 5 letter words, from easy to hard, with a daily dose of ten ladders and 61 picture pairs to collect.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.nexplaystudios.lumiwords">Get it on Google Play</a>
+      <a href="lumi-words/privacy.html">Privacy policy</a>
+    </div>
+  </div>
+  <div class="game">
     <img src="lumi-blocks/icon.png" alt="Lumi Blocks icon" />
     <div>
-      <h3>Lumi Blocks: Star Puzzle</h3>
+      <h3>Lumi Blocks: Block Puzzle</h3>
       <p>Fill the glowing rows and columns, light every star and reveal a hidden picture. 150 levels, a daily puzzle and an endless mode.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.nexplaystudios.lumiblocks">Get it on Google Play</a>
       <a href="lumi-blocks/privacy.html">Privacy policy</a>
     </div>
   </div>
